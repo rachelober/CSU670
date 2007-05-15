@@ -1,0 +1,141 @@
+<html>
+<head>
+    <title>Project 4 Task 3</title>
+</head>
+<body>
+
+<h1>Memo: Interfaces and Analysis for Administrators, Turn, and Players</h1>
+
+<h2>Rachel Ober and Brandon Schory</h2>
+
+<p><b>AdministratorS</b></p>
+
+<p>register_player : player/p -> listof player/p<br>
+;; add a player to the game (list of players)</p>
+
+<p>start_game : listof player/p int -> boolean<br>
+;; once the maximum players allowed,<br>
+;; or the minimum player's necessary have registered and a short time (int) has<br>
+;; elapsed to allow more to join, close registration and begin the game<br>
+;; boolean = was sucessful</p>
+
+<p>deal : deck/d -> deck/d<br>
+;; deal the Players their hands for this battle, and remove card from game deck</p>
+
+<p>create_stacks : deck/d -> deck/d<br>
+;; create the face up and face down stacks, and remove cards from game deck</p>
+
+<p>first_player? : listof player/p -> player/p<br>
+;; randomly determine which player should</p>
+
+<p>player_order : listof player/p -> listof player/p<br>
+;; returns a list of player sorted in order of their turn</p>
+
+<p>player_has_won? : listof player/p -> boolean<br>
+;; determine if any players score has exceeded 250, meaning they win</p>
+
+<p><b>TurnS</b></p>
+
+<p>take_face_down : -> card/c<br>
+;; to begin turn, take card from face down stack</p>
+
+<p>take_face_up : int -> listof card/c<br>
+;; to begin turn, take n cards from face up stack</p>
+
+<p>play_squadrons : listof squadron/s -> boolean<br>
+;; place completed squadrons on the table to score points<br>
+;; boolean = was sucessful</p>
+
+<p>attack : squadron/s  player/p) -> squadron/s<br>
+;; attack other player's squadron with one of your own<br>
+
+<p>no_more_cards? : hand/h -> boolean<br>
+;; determine if the player has played his last card</p>
+
+<p>place_card_up : card/c -> boolean<br>
+;; end turn by placing card on face up stack<br>
+;; boolean = was sucessful</p>
+
+<p><b>PlayerS</b></p>
+
+<p>create : string -> player/p<br>
+;; create a new player with name string</p>
+
+<p>deal_hand : hand/h -> player/p<br>
+;; deal the player a hand to play with</p>
+
+<p>pick_up_cards : listof card/c -> hand/h<br>
+;; add cards to players hand</p>
+
+<p>battle_score : listof squadron/s hand/h -> int<br>
+;; calculate the players score for this battle based on owned squadrons and his hand</p>
+
+<p>total_points? : player/p -> int<br>
+;; total points player has won in game</p>
+
+<p><b>About Interface 1</b></p>
+
+<p>This interface was designed from an object oreinted perspective for a language which relies on and often encourages the use of methods with side effects.  The vast majority of methods are designed to return userful information for comparison or actual functionality. Methods that primarily rely on side effects are set to return a boolean indicating whether or not they were sucessful. This should facilitate catching errors or exceptions since there are no clearly visible repurcussions.</p>
+
+<p><b>TurnS</b></p>
+
+<p>play_squadron : (listof Squadron/c) -> Squadron/c<br>
+;; Extracts a Squadron from Player's hand and moved to played_squadrons</p>
+
+<p>draw_card : Stack/c Int -> (Listof cards)<br>
+;; Draws a card or cards from a chosen stack</p>
+
+<p>discard_card : Hand/c Card -> Stack/c<br>
+;; Discards Card from Players Hand and Places it on discard Stack<p>
+
+<p>game_over? : Hand/c -> Boolean<br>
+;; Looks to see if current player has ended the game</p>
+
+<p><b>PlayerS</b></p>
+
+<p>create : String -> Player<br>
+;; Create a new player in game</p>
+
+<p>which_squadrons? : Hand/c -> (Listof Squadron/c)<br>
+;; Looks in hands and finds playable squadrons</p>
+
+<p>hand_value : Hand/c -> int<br>
+;; Computes value of Player's Hand</p>
+
+<p>played_squadrons : Player -> (Listof Squadrons/c)<br>
+;; Which squadrons have been played by this player?</p>
+
+<p>gained_squadrons : Player -> (Listof Squadrons/c)<br>
+;; Which squadrons have this player defeated?</p>
+
+<p>score : Player -> Int<br>
+
+;; What's the Player's score?</p>
+
+<p><b>AdministratorS</b></p>
+
+<p>start_game : (Listof Players) -> Boolean<br>
+;; Checks to see if the list of players has enough players<p>
+
+<p>pick_first_player : (Listof Players) -> Player<br>
+;; Picks the first player</p>
+
+<p>whose_turn? :(Listof Players) -> Player<br>
+
+;; Extract a Player from this List of Players</p>
+
+<p>register_player : (Listof Players) Player -> (Listof Players)<br>
+;; Adds the player to the registered players</p>
+
+<p>deal_cards : Deck/c (Listof Players) -> Deck/c<br>
+;; Deals the cards to the registered players</p>
+
+<p>start_battle : Player -> Deck/c<br>
+;; Creates the deck for the new battle</p>
+
+<p><b>About Interface 2</b></p>
+
+<p>Interface 2 tries to break up every task of the game and give it to the respective method. The Administrator controls everything about creating the game and individual battles as well as monitoring the players. The Player will have methods that deal with what is currently in his hand, what squadrons have been played, what squardons he has won, and his overall game score. The Turn deals with everything in a specific turn and what moves a Player can make such as choosing which stack to take a card (or cards) from and if he wants to play any squadrons.</p>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+Project 9: Running a Turn, Enforcing Contracts
+
+Included in this release are the following files:
+
+/README
+    This is the current file, which describes the contents of 
+    this project release.
+
+/aircrafts
+    This directory includes all image files of the aircrafts
+    as well as the index.xml file for organizing data.
+
+/code
+    Directory for all project code.
+
+/code/administrator.rb
+    Contains data representation of Adminitrator.
+
+/code/alliance.rb
+    Contains data representation of Alliance.
+
+/code/attack.rb
+    Contains data representation of Attack.
+    
+/code/card.rb
+    Contains data representation of Cards.
+
+/code/cardsfrom.rb
+    Contains data representation of CardsFrom.
+
+/code/category.rb
+    Contains data representation of Category.
+
+/code/code.rb
+    Short file that requires the different classes so they can
+    be executed.
+
+/code/deck.rb
+    Contains data representation of Decks (built from index.xml).
+
+/code/done.rb
+    Contains data representation of Done.
+
+/code/hand.rb
+    Contains data representation of a Players Hand.
+
+/code/image.rb
+    Contains data representation of a Image.
+    
+/code/observer_player.rb
+    Observer class to monitor changes to Player
+
+/code/player.rb
+    Contains data representation of a Player
+
+/code/proxyplayer.rb
+    Contains data representation of ProxyPlayer (inherits from Player, IO)
+
+/code/proxyturn.rb
+    Contains data representation of ProxyTurn (inherits from Turn, IO).
+
+/code/run_player_gui.rb
+    Code that runs a player turn with GUI turned on.
+
+/code/runtimeerror.rb
+    Specifes specific run-time errors.
+
+/code/squadron.rb
+    Contains data representation of Squadrons.
+
+/code/stack.rb
+    Contains data representation of Stacks of Cards.
+
+/code/tester_proxyplayer.rb
+    Makes IO and instance calls to test ProxyPlayer
+
+/code/tester_proxyturn.rb
+    Makes IO and instance calls to test ProxyTurn
+
+/code/tester_rulechecker.rb
+    Makes IO and instance calls, the test harness for the rule checker.
+
+/code/turn.rb
+    Contains data representation of a Player's Turn.
+
+/code/xmlhelper.rb
+    Contains methods that convert data structures to and from XML
+
+/compile    
+    This is a dummy file. When executing the bash script as 
+    "bash compile" it will print a message to the screen alerting 
+    the user that the "run" script will need to be executed. 
+    Because our code is written in ruby, it is unnecessary to 
+    compile it.
+
+/modules/dbc.rb
+    Our contracting system.
+    
+/modules/rtparser.rb
+    Copied from Tree Parser, with an added line to check the end of 
+    an XML message.
+
+/run
+    This is a file that runs the /code/run_player_gui.rb file. 
+    This runs a test player turn and presents a GUI. 
+    no syntax errors.
+
+/run-tests
+    This executes the /tests/tests.rb file. This runs a Ruby
+    test unit test suite. It returns how many tests were executed,
+    the count for failures and errors.
+
+/testcases
+    Directory for test files.  Changed from /tests at Project 6/7
+
+/testcases/administrator_tests.rb
+    Test suit for Administrator class and code/administrator.rb
+
+/testcases/alliance_tests.rb
+    Test suit for alliance.rb
+
+/testcases/attack_test.rb
+    Test suit for attack.rb
+
+/testcases/card_tests.rb
+    Test suite for /code/card.rb.
+
+/testcases/deck_tests.rb
+    Test suite for /code/deck.rb.
+
+/testcases/hand_tests.rb
+    Test suite for /code/hand.rb.
+
+/testcases/player_tests.rb
+    Test suite for /code/player.rb
+    
+/testcases/proxyplayer_tests.rb
+    Test suite for code/proxyplayer.rb
+    
+/testcases/proxyturn_tests.rb
+    Test suite for code/proxyturn.rb
+    
+/testcases/squadron_tests.rb
+    Test suite for /code/squadron.rb.
+
+/testcases/stack_tests.rb
+    Test suite for /code/stack.rb.
+
+/testcases/tests.rb
+    File that requires all other test suites for execution.
+
+/testcases/turn_tests.rb
+    Test suite for /code/turn.rb
+
+/xmltests/
+    This directory holds XML files used for testing purposes.

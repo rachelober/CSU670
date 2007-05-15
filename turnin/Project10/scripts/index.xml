@@ -1,0 +1,33 @@
+<deck>
+  <aircraft category="bomber" image="question.jpg" name="Baku Geki KI-99" nation="axis" />
+  <aircraft category="fighter" image=".jpg" name="Bell P-39D" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Boeing B-17E" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Boulton Paul Defiant" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Brewster F2A-3" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Bristol Blenheim" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Consolidated B-24D" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Consolidated PB2Y-3" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Curtiss P-40E" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Dornier Do 26" nation="axis" />
+  <aircraft category="bomber" image=".jpg" name="Douglas A-20a" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Focke Wulf FW 190" nation="axis" />
+  <aircraft category="fighter" image=".jpg" name="Grumman F4f-4" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Hawker Hurricane" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Heinkel He 111" nation="axis" />
+  <aircraft category="fighter" image=".jpg" name="Lockheed P-38E" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Martin B-26C" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Messerschmitt ME-109" nation="axis" />
+  <aircraft category="fighter" image=".jpg" name="Messerschmitt ME-110" nation="axis" />
+  <aircraft category="fighter" image=".jpg" name="Mitsubishi 96" nation="axis" />
+  <aircraft category="bomber" image=".jpg" name="Mitsubishi 98" nation="axis" />
+  <aircraft category="bomber" image=".jpg" name="Mitsubishi 99" nation="axis" />
+  <aircraft category="fighter" image=".jpg" name="Nakajima 97" nation="axis" />
+  <aircraft category="bomber" image=".jpg" name="Northrop A-17a" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Republic P-47D" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="I-16" nation="axis" />
+  <aircraft category="bomber" image=".jpg" name="Savoia Marchetti SM82" nation="axis" />
+  <aircraft category="fighter" image="question.jpg" name="Sento KI-001" nation="axis" />
+  <aircraft category="bomber" image=".jpg" name="Short Stirling" nation="allies" />
+  <aircraft category="fighter" image=".jpg" name="Supermarine Spitfire" nation="allies" />
+  <aircraft category="bomber" image=".jpg" name="Vickers Wellington" nation="allies" />
+</deck>

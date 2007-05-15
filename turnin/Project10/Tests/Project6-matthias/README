@@ -1,0 +1,9 @@
+
+case1.xml : case (cheats) forces player to take the same card twice 
+case2.xml : case provides player with one complete squadron plus extra card 
+case3.xml : case expects same squadron as 3.xml but in non-standard order 
+case4.xml : case expects two squadrons as discards 
+case5.xml : case expects two squadrons as discards, out of order 
+case6.xml : case with an attack plus discards 
+case7.xml : case with two attacks
+case8.xml : case with two attacks, plus (same) card on top of deck 

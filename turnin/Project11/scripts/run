@@ -1,0 +1,9 @@
+ # !/usr/bin/env bash
+
+echo "This script will run the 'code.pl' script."
+
+echo "Please input the filename of the xml you will be using (make sure to include the full pathname) and press ENTER:"
+
+read filename
+
+perl code.pl $filename

@@ -1,0 +1,54 @@
+<CHEATING msg="Player is discarding cards not in his/her hand">
+  <SQUADRON> 
+    <AIRCRAFT NAME="Heinkel He 111" TAG="1" />
+    <AIRCRAFT NAME="Heinkel He 111" TAG="2" />
+    <AIRCRAFT NAME="Heinkel He 111" TAG="3" />
+    <AIRCRAFT NAME="Mitsubishi 96" TAG="1" />
+    <AIRCRAFT NAME="Bell P-39D" TAG="1" />
+    <KEEPEM TAG="1" />
+  </SQUADRON>
+  <TURN name="The best turn">
+    <STACK>
+      <AIRCRAFT NAME="Bell P-39D" TAG="2" />
+    </STACK>
+    <STACK>
+      <AIRCRAFT NAME="Bell P-39D" TAG="3" />
+    </STACK>
+    <LIST>
+      <SQUADRON>
+        <AIRCRAFT NAME="Boeing B-17E" TAG="1" />
+        <AIRCRAFT NAME="Boeing B-17E" TAG="2" />
+        <AIRCRAFT NAME="Boeing B-17E" TAG="3" />
+      </SQUADRON>
+    </LIST>
+    <LIST />
+  </TURN>
+  <TURN-GET-A-CARD-FROM-DECK />
+  <END>
+    <FALSE />
+    <LIST>
+      <SQUADRON>
+        <AIRCRAFT NAME="Bell P-39D" TAG="2" />
+        <AIRCRAFT NAME="Bell P-39D" TAG="1" />
+        <KEEPEM TAG="1" />
+      </SQUADRON>
+      <SQUADRON>
+        <AIRCRAFT NAME="Heinkel He 111" TAG="2" />
+        <AIRCRAFT NAME="Heinkel He 111" TAG="1" />
+        <AIRCRAFT NAME="Heinkel He 111" TAG="3" />
+      </SQUADRON>
+    </LIST>
+    <ATTACK>
+      <SQUADRON>
+        <AIRCRAFT NAME="Mitsubishi 96" TAG="1" />
+        <AIRCRAFT NAME="Mitsubishi 96" TAG="2" />
+        <AIRCRAFT NAME="Mitsubishi 96" TAG="3" />
+      </SQUADRON>
+      <SQUADRON>
+        <AIRCRAFT NAME="Boeing B-17E" TAG="1" />
+        <AIRCRAFT NAME="Boeing B-17E" TAG="2" />
+        <AIRCRAFT NAME="Boeing B-17E" TAG="3" />
+      </SQUADRON>
+    </ATTACK>
+  </END>
+</CHEATING>

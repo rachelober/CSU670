@@ -1,0 +1,1 @@
+("369.8" #"/home/cobbe/teaching/p67-admin-src/utils/basic-syntax.scm" #"/home/cobbe/teaching/p67-admin-src/cards.scm" #"/home/cobbe/teaching/p67-admin-src/utils/set.scm" (collects . #"mzlib/list.ss") (collects . #"mzlib/match.ss") (collects . #"mzlib/contract.ss"))

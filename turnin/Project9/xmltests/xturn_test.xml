@@ -1,0 +1,22 @@
+<TURN>
+    <STACK>
+        <VICTORY />
+    </STACK>
+    <STACK>
+        <VICTORY />
+    </STACK>
+    <LIST>
+        <SQUADRON>
+            <AIRCRAFT NAME="Vickers Wellington" TAG="1" />
+            <AIRCRAFT NAME="Vickers Wellington" TAG="2" />
+            <AIRCRAFT NAME="Vickers Wellington" TAG="3" />
+        </SQUADRON>
+    </LIST>
+    <LIST>
+        <SQUADRON>
+            <AIRCRAFT NAME="Dornier Do 26" TAG="1" />
+            <AIRCRAFT NAME="Dornier Do 26" TAG="2" />
+            <AIRCRAFT NAME="Dornier Do 26" TAG="3" />
+        </SQUADRON>
+    </LIST>
+</TURN>

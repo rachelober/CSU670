@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Project 3 Task 2</title>
+</head>
+<body>
+
+<h1>Memo: Use Cases for Running Squadron Scramble</h1>
+
+<h2>Rachel Ober and Brandon Schory</h2>
+
+<p>
+Use Cases:
+</p>
+
+<p>
+1. "Players register with administrator"
+<ol>
+	<li> Player provides username to request to join a game </li>
+	<li> While there are still empty seats, administrator adds users to game </li>
+	<li> If the minimum number of players to run a game have joined, the administrator waits a maximum of two minutes for other players to join, before starting the game </li>
+	<li> When seats are full, or the two minutes expire, administrator closes registration </li>
+</ol>
+</p>
+
+<p>
+2. "Player takes turn"
+<ol>
+	<li> The player takes exactly one card from the face-down deck, or at least one card from the face up deck </li>
+	<li> The player then checks if there are any squadrons in his hand, and puts them on the table </li>
+	<li> For each squadron of Fighter cards the player places on the table, he may "shoot down" another player's squadron of bombers, such that: </li>
+	<ol>
+		<li> If it is an axis squadron of fighters, he may shoot down an allied squadron of bombers </li>
+		<li> If it is an allied squadron of fighters, he may shoot down an axis squadron of bombers </li>
+	</ol>
+	<li> The player gains ownership of any shot down squadrons, and no one else can attack them (take ownership of them) </li>
+	<li> If the player has placed the last card in his hand on the table, the battle and the player's turn ends </li>
+	<li> If the player has not placed the last card in his hand on the table, but places his last card face up on the face-up deck, the battle and his turn ends </li>
+	<li> Otherwise, the player places one card, face up on the face-up deck, and his turn ends </li>
+</ol>
+</p>
+
+<p>
+3. "Administrator plays a complete game"
+<ol>
+	<li> The Administrator registers some number of users for the game, per use case 1 </li>
+	<li> The Administrator shuffles the deck and gives each player 7 cards </li>
+	<li> The Administrator randomly selects a player to begin the battle </li>
+	<li> Each player takes turns in a clockwise order, per use case 2, starting from the randomly selected player </li>
+	<li> When any player puts down the last card in his hand, the Administrator ends the battle </li>
+	<li> The Administrator awards each player 15 points for each figther squadron they have on the table, and 30 points for each bomber squadron </li>
+	<li> If no player's score is greater than or equal to 250, the Administrator starts a new battle by returning to step (2) above </li>
+	<li> When any player's score is 250 or greater, the game ends and the player with the highest score wins </li>
+</ol>
+</p>
+</body>
+</html>

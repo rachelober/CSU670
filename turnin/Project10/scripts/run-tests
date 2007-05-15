@@ -1,0 +1,9 @@
+# !/usr/bin/env bash
+
+echo "This script will run the 'code.pl' script test-case. To view the changed file, please view /script/index.xml"
+
+echo -n "To execute press ENTER:"
+
+read i
+
+perl code.pl index.xml

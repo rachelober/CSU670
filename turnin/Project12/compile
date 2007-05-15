@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+echo "Code does not need to be compiled. Please execute 'run'."

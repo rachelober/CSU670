@@ -1,0 +1,1 @@
+("369.8" #"/home/cobbe/teaching/p67-admin-src/utils/basic-syntax.scm" (collects . #"mzlib/etc.ss") (collects . #"mzlib/list.ss") (collects . #"mzlib/match.ss") (collects . #"xml/xml.ss") (collects . #"mzlib/contract.ss"))

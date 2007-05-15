@@ -1,0 +1,5 @@
+# !/usr/bin/env bash
+
+echo "Running ProxyTest Cases..."
+
+ruby testcases/proxytests.rb

@@ -1,0 +1,4 @@
+# !/usr/bin/env bash
+
+# Runs code to parse index.xml
+perl scripts/parseaircrafts.pl aircrafts/index.xml

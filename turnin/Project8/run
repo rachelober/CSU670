@@ -1,0 +1,34 @@
+# !/usr/bin/env bash
+
+#echo "This script will run the 'code/code.rb' program."
+
+# Runs code interactively
+run_interactively (){
+    echo "This will allow you to run the code interactively."
+    
+    irb -r code/code.rb
+}
+
+# Runs code to see if it executes properly
+#run_regular (){
+#    ruby code/code.rb
+#}
+
+# Runs the GUI
+run_regular (){
+    ruby code/run_player_gui.rb
+}
+
+if [ "$1" = "-i" ]; then
+    run_interactively
+    exit
+elif [ $# = 0 ]; then
+    run_regular
+else
+    echo <<END_USAGE
+    usage: $0 [ -i ]
+    options:
+    -i      run program in interactive mode; allows you to create objects and run methods.
+END_USAGE
+    exit 1
+fi
