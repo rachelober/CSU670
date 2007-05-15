@@ -1,0 +1,56 @@
+<CASE>
+  <SQUADRON>
+    <AIRCRAFT NAME="Mitsubishi 96" TAG="1" />
+    <AIRCRAFT NAME="Mitsubishi 96" TAG="2" />
+    <AIRCRAFT NAME="Mitsubishi 96" TAG="3" />
+    <AIRCRAFT NAME="Bell P-39D" TAG="1" />
+    <KEEPEM TAG="1" />
+  </SQUADRON>
+  <FALSE />
+  <STACK>
+    <AIRCRAFT NAME="Bell P-39D" TAG="2" />
+  </STACK>
+  <LIST>
+   <SQUADRON>
+    <AIRCRAFT NAME="Boeing B-17E" TAG="1" />
+    <AIRCRAFT NAME="Boeing B-17E" TAG="2" />
+    <AIRCRAFT NAME="Boeing B-17E" TAG="3" />
+   </SQUADRON>
+  </LIST>
+  <LIST>
+   <SQUADRON>
+    <AIRCRAFT NAME="Mitsubishi 98" TAG="1" />
+    <AIRCRAFT NAME="Mitsubishi 98" TAG="2" />
+    <AIRCRAFT NAME="Mitsubishi 98" TAG="3" />
+   </SQUADRON>
+  </LIST>
+  <END>
+    <FALSE />
+    <LIST>
+    </LIST>
+    <ATTACK>
+     <SQUADRON>
+      <AIRCRAFT NAME="Bell P-39D" TAG="2" />
+      <AIRCRAFT NAME="Bell P-39D" TAG="1" />
+      <KEEPEM TAG="1" />
+     </SQUADRON>
+     <SQUADRON>
+      <AIRCRAFT NAME="Mitsubishi 98" TAG="1" />
+      <AIRCRAFT NAME="Mitsubishi 98" TAG="2" />
+      <AIRCRAFT NAME="Mitsubishi 98" TAG="3" />
+     </SQUADRON>
+    </ATTACK>
+    <ATTACK>
+     <SQUADRON>
+      <AIRCRAFT NAME="Mitsubishi 96" TAG="1" />
+      <AIRCRAFT NAME="Mitsubishi 96" TAG="2" />
+      <AIRCRAFT NAME="Mitsubishi 96" TAG="3" />
+     </SQUADRON>
+     <SQUADRON>
+      <AIRCRAFT NAME="Boeing B-17E" TAG="1" />
+      <AIRCRAFT NAME="Boeing B-17E" TAG="2" />
+      <AIRCRAFT NAME="Boeing B-17E" TAG="3" />
+     </SQUADRON>
+    </ATTACK>
+  </END>
+</CASE>
