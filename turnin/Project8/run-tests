@@ -1,5 +1,0 @@
-# !/usr/bin/env bash
-
-echo "This script will run the 'tests/tests.rb' program to evaluate test cases."
-
-ruby testcases/tests.rb

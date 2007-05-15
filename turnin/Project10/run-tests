@@ -1,8 +1,0 @@
-# !/usr/bin/env bash
-
-echo "Running Test Cases..."
-
-bash run-parseaircrafts
-ruby testcases/tests.rb
-rm aircrafts/index.xml
-cp aircrafts/original.xml aircrafts/index.xml

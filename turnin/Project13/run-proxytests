@@ -1,8 +1,0 @@
-# !/usr/bin/env bash
-
-echo "Running ProxyTest Cases..."
-
-bash run-parseaircrafts
-ruby testcases/proxytests.rb
-rm aircrafts/index.xml
-cp aircrafts/original.xml aircrafts/index.xml

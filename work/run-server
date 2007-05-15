@@ -1,6 +1,0 @@
-# !/usr/bin/env bash
-
-bash run-parseaircrafts
-ruby code/server.rb
-rm aircrafts/index.xml
-cp aircrafts/original.xml aircrafts/index.xml

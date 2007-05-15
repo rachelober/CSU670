@@ -1,8 +1,0 @@
-# !/usr/bin/env bash
-
-bash run-parseaircrafts
-ruby code/tester_proxyturn.rb
-#ruby code/tester_proxyplayer.rb
-#ruby code/tester_rulechecker.rb
-rm aircrafts/index.xml
-cp aircrafts/original.xml aircrafts/index.xml
